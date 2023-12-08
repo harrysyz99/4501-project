@@ -30,18 +30,19 @@ CREATE TABLE IF NOT EXISTS zillow (
   "index" int8 PRIMARY KEY,
   "RegionID" int8,
   "RegionName" int8,
-  "date" text COLLATE "pg_catalog"."default",
+  "date" DATE,
   "rent" float8
 )
 ;
 
 CREATE TABLE IF NOT EXISTS Bedbug (
-  "Building ID" int8 PRIMARY KEY,
+  "index" int   PRIMARY KEY,
+  "Building ID" int8,
   "Postcode" float8,
   "Filing Date" timestamp(6),
   "Eradicated Unit Count" float8,
-  "Re-infested Dwelling Unit Count" float8,
+  "Re-infested  Dwelling Unit Count" float8,
   "Latitude" float8,
   "Longitude" float8,
-  "geometry" geometry(POINT)
+  "geometry" geometry(POINT,3857)
 );
