@@ -161,3 +161,14 @@ cython_debug/
 
 ## remove all csv file
 *.csv
+
+*.csv
+*.DS_Store
+
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.shp
+*.shp.xml
+*.shx
