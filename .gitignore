@@ -172,3 +172,5 @@ cython_debug/
 *.shp
 *.shp.xml
 *.shx
+
+.idea/

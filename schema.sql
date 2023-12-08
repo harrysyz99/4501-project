@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS t311 (
     "Location" text COLLATE "pg_catalog"."default",
     "geometry" geometry(POINT, 3857)
 )
+)
 
 CREATE TABLE IF NOT EXISTS stc (
     "created_at" timestamp(6),
@@ -24,10 +25,19 @@ CREATE TABLE IF NOT EXISTS stc (
     "health" text COLLATE "pg_catalog"."default",
     "spc_common" text COLLATE "pg_catalog"."default",
     "geometry" geometry(POINT, 3857)
-)
 
 CREATE TABLE IF NOT EXISTS zillow (
     "RegionName" int8 PRIMARY KEY,
     "Date" text COLLATE "pg_catalog"."default",
     "Value" float8
+
+CREATE TABLE IF NOT EXISTS Bedbug (
+  "Building ID" int8 PRIMARY KEY,
+  "Postcode" float8,
+  "Filing Date" timestamp(6),
+  "Eradicated Unit Count" float8,
+  "Re-infested  Dwelling Unit Count" float8,
+  "Latitude" float8,
+  "Longitude" float8,
+  "geometry" geometry(POINT)
 )
