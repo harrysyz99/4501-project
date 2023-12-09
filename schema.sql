@@ -1,6 +1,6 @@
 
 CREATE TABLE IF NOT EXISTS nyc_shape (
-  "zipcode" float8 PRIMARY KEY,
+  "ZIPCODE" float8 PRIMARY KEY,
   "geometry" geometry(POLYGON, 3857)
 );
 
@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS stc (
     "longitude" float8,
     "tree_id" int8 PRIMARY KEY,
     "zipcode" int8,
+    "status" TEXT,
     "health" text COLLATE "pg_catalog"."default",
     "spc_common" text COLLATE "pg_catalog"."default",
     "geometry" geometry(POINT, 3857)
