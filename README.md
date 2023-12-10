@@ -1,4 +1,6 @@
 ## ﻿Project Group 8
+# each of us are equally contributed
+
 ## UNIs: [tl3259, sz3209]
 Author : Shiyang Zhang, Tian Lan
 
