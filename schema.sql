@@ -1,6 +1,6 @@
 
 CREATE TABLE IF NOT EXISTS nyc_shape (
-  "ZIPCODE" float8 PRIMARY KEY,
+  "ZIPCODE" int8 PRIMARY KEY,
   "geometry" geometry(POLYGON, 3857)
 );
 
@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS t311 (
     "Unique Key" int8 PRIMARY KEY,
     "Created Date" timestamp(6),
     "Complaint Type" text COLLATE "pg_catalog"."default",
-    "Incident Zip" float8,
+    "Incident Zip" int8,
     "Latitude" float8,
     "Longitude" float8,
     "Location" text COLLATE "pg_catalog"."default",
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS zillow (
 CREATE TABLE IF NOT EXISTS Bedbug (
   "index" int   PRIMARY KEY,
   "Building ID" int8,
-  "Postcode" float8,
+  "Postcode" int8,
   "Filing Date" timestamp(6),
   "Eradicated Unit Count" float8,
   "Re-infested  Dwelling Unit Count" float8,
