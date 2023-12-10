@@ -12,6 +12,6 @@ WHERE
         stc.geometry,
         ST_Transform(ST_SetSRID(ST_Point(-73.96253174434912, 40.80737875669467), 4326), 3857),
         804.7
-    );
-
+    )
+LIMIT 10;
 
