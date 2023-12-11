@@ -1,5 +1,5 @@
 ## ﻿Project Group 8
-# each of us are equally contributed
+# each of us are equally contributed, and the addition and deletion is also equally weighted. 
 
 ## UNIs: [tl3259, sz3209]
 Author : Shiyang Zhang, Tian Lan
@@ -66,7 +66,7 @@ Details: Use a specific latitude and longitude to find trees within a ½ mile ra
 Visualization 1: NYC Complaint Trends (for animation to work, please trust the markdown)
 Objective: Analyze top 3 complaint types from October 1st, 2022, to September 30th, 2023, and visualize their daily frequency.
 
-Details: Create a visualization showing daily complaint counts for the top 3 complaint types over the specified timeframe.
+Details: Create a visualization showing daily complaint counts for the top 3 complaint types over the specified timeframe. (one line chart and one animated bar chart)
 
 Visualization 2: Common Complaints in 10027
 Objective: Explore the top 10 complaints in zip code 10027 from October 1st, 2018, to September 30th, 2023.
